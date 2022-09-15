@@ -1,0 +1,49 @@
+
+
+:root{
+    --bgcolor: rgb(11,113,161);
+    --colortext: white;
+}
+
+body{
+    color: var(--colortext);
+    width: 1250px;
+    margin: 0 auto;
+    
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    height: 9em;
+    background-color: var(--bgcolor);
+}
+
+.info{
+    width: 50em;
+    display: flex;
+    padding: 1em 1em 1em 1em;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.logo{
+    margin-right: 2em;
+}
+
+.find{
+    margin-right: auto; 
+}
+
+
+
+input[type="text"] {
+    font-family: inherit; /* 1 */
+    font-size: inherit; /* 1 */
+    line-height: inherit; /* 1 */
+    margin: 0; /* 2 */
+}
