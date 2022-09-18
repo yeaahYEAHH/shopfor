@@ -4,110 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css" title="deafult" media="screen">
-    <title>Shop</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>MaGaZine</title>
 </head>
 <body>
-    <header>
-        <div class="info">
-            <img src="img/R.png" alt="logo" class="logo">
-            <p class="find">
-                Поиск товаров
-                <input type="text" value="" id="find">
-                <button type="button">Искать</button>
-            </p>
+    <header class="header">
+        <div class="container header-container">
+            <div class="header-top">
+                <img src="img/geo.png" alt=""><span>Нефтеюганск</span>
+            </div>
+            <div class="header-main">
+                <span class="logo"><a href="" class="logolink link">MGZ</a></span>
+                <input type="text" class="find" placeholder="Поиск">
+                <button class="button-find"><img src="img/searching.png" alt=""></button>
+                <nav class="header__nav">
+                    <ul class="header__menu list">
+                        <li><a href="#" class="menu__item link"><img src="img/home.png" alt="" class="icon">Главная</a></li>
+                        <li><a href="HTMl/catalog.html" class="menu__item link"><img src="img/menu.png" alt="" class="icon">Каталог</a></li>
+                        <li><a href="" class="menu__item link"><img src="img/discount.png" alt="" class="icon">Акции</a></li>
+                        <li><a href="" class="menu__item link"><img src="img/phone.png" alt="" class="icon">Контакты</a></li>
+                        <li><a href="" class="menu__item link" link><img src="img/shopping-cart.png" alt="" class="icon">Корзина</a></li>
+                        <li><a href="HTMl/authorization.html" class="menu__item link"><img src="img/user.png" alt="" class="icon">Аккаунт</a></li>
+                        <li><a href="" class="menu__item link"><img src="img/info.png" alt="" class="icon">Информация</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
-    <main>
-        <div class="auto">
-            <h4>Авторизация</h4>
-            <p><input type="text" value="" name="login">Логин</p>
-            <p><input type="text" value="" name="pass">Пароль</p>
-            <p><a href="#">Зарегистрироваться</a></p>
-            <button type="button">Продолжить</button>
-        </div>
+    <section class="block"></section>
 
-        <div class="req">
-            <h4>Регистрация</h4>
-            <p><input type="text" value="" name="login">Логин</p>
-            <p><input type="text" value="" name="pass">Пароль</p>
-            <p><input type="text" value="" name="pass">Пароль</p>
-            <button type="button">Продолжить</button>
-        </div>
-
-        <div class="catalog">
-
-            <div class="grid">
-                <div class="item-grid">
-                    <h3>Name</h3>
-                    <img src="" alt="item">
-                    <p>
-                        Он собрал семь своих заглавных букв, подпоясал инициал за пояс и пустился в дорогу. 
-                        Взобравшись на первую вершину курсивных гор...
-                    </p>
-                    <button type="button"><a href="">Подробнее</a></button>
-                </div>
-
-                <div class="item-grid">
-                    <h3>Name</h3>
-                    <img src="" alt="item">
-                    <p>
-                        Он собрал семь своих заглавных букв, подпоясал инициал за пояс и пустился в дорогу. 
-                        Взобравшись на первую вершину курсивных гор...
-                    </p>
-                    <button type="button"><a href="">Подробнее</a></button>
-                </div>
-
-                <div class="item-grid">
-                    <h3>Name</h3>
-                    <img src="" alt="item">
-                    <p>
-                        Он собрал семь своих заглавных букв, подпоясал инициал за пояс и пустился в дорогу. 
-                        Взобравшись на первую вершину курсивных гор...
-                    </p>
-                    <button type="button"><a href="">Подробнее</a></button>
-                </div>
-
-                <div class="item-grid">
-                    <h3>Name</h3>
-                    <img src="" alt="item">
-                    <p>
-                        Он собрал семь своих заглавных букв, подпоясал инициал за пояс и пустился в дорогу. 
-                        Взобравшись на первую вершину курсивных гор...
-                    </p>
-                    <button type="button"><a href="">Подробнее</a></button>
-                </div>
-            </div>
-
-            <div class="categoria">
-                <ul>
-                    <li>a</li>
-                    <li>a</li>
-                    <li>a</li>
-                    <li>a</li>
-                </ul>
+    <main class="hero container">
+        <div class="wrapper">
+            <input type="radio" name="point" id="slide1" checked>
+            <input type="radio" name="point" id="slide2">
+            <input type="radio" name="point" id="slide3">
+            <input type="radio" name="point" id="slide4">
+            <input type="radio" name="point" id="slide5">
+            <div class="slider">
+                <div class="slides slide1"></div>
+                <div class="slides slide2"></div>
+                <div class="slides slide3"></div>
+                <div class="slides slide4"></div>
+                <div class="slides slide5"></div>
+            </div>	
+            <div class="controls">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+                <label for="slide5"></label>
             </div>
         </div>
     </main>
 
-    <section class="item">
-        <h3>Name</h3>
-        <img src="" alt="item">
-        <p>
-            Он собрал семь своих заглавных букв, подпоясал инициал за пояс и пустился в дорогу. Взобравшись на первую вершину курсивных гор, бросил он последний 
-            взгляд назад, 
-            на силуэт своего родного города Буквоград, на заголовок деревни Алфавит и на подзаголовок своего переулка Строчка.
-
-            Грустный реторический вопрос скатился по его щеке и он продолжил свой путь. По дороге встретил текст рукопись. Она предупредила его: 
-            «В моей стране все переписывается по несколько раз. Единственное, что от меня осталось, это приставка «и». Возвращайся ты лучше в свою безопасную страну».
-        </p>
-    </section>
-
-    <footer>
-        <p class="dev">
-            Dev: <span>Имя_раяработчика</span> Почта: <a href="">fuf</a>
-        </p>
+    <footer class="footer container">
+        <div class="info">
+            <ul class="footer-list list">
+                <li class="footer-list-item">Оставайтесь на связи: <a href="tel:+78005553535" class="link link-footer">8 (800) 555-35-35</a></li>
+                <li class="footer-list-item">Следите за новинками и акциями:</li>
+                <li class="footer-list-item"><input type="text" class="find" placeholder="Введите email и подпишитесь"><img src="" alt="" class=""></li>
+                <li class="footer-list-item">2022 Компания MGZ</li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>
