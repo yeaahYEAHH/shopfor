@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>MaGaZine</title>
 </head>
@@ -16,17 +15,18 @@
             <div class="header-main">
                 <div class="info">
                     <span class="logo"><a href="" class="logolink link">MGZ</a></span>
-                    <input type="text" class="find" placeholder="Поиск">
-                    <button class="button-find button"><img src="img/searching.png" alt=""></button>
-
+                    <div class="da">
+                        <input type="text" class="find" placeholder="Поиск">
+                        <button class="button-find button"><img src="img/searching.png" alt=""></button>
+                    </div>
                 </div>
-                <nav class="header__nav">
+                <nav class="header-nav">
                     <ul class="header__menu list">
-                        <li><a href="#" class="menu__item-1 link"><img src="img/home.png" alt="" class="icon">Главная</a></li>
-                        <li><a href="HTMl/catalog.html" class="menu__item-2 link"><img src="img/menu.png" alt="" class="icon">Каталог</a></li>
+                        <li><a href="" class="menu__item-1 link"><img src="img/home.png" alt="" class="icon">Главная</a></li>
+                        <li><a href="html/catalog.html" class="menu__item-2 link"><img src="img/menu.png" alt="" class="icon">Каталог</a></li>
                         <li><a href="" class="menu__item-3 link"><img src="img/discount.png" alt="" class="icon"><br>Акции</a></li>
                         <li><a href="" class="menu__item-5 link" link><img src="img/shopping-cart.png" alt="" class="icon">Корзина</a></li>
-                        <li><a href="HTMl/authorization.html" class="menu__item-6 link"><img src="img/user.png" alt="" class="icon">Аккаунт</a></li>
+                        <li><a href="html/auto.html" class="menu__item-6 link"><img src="img/user.png" alt="" class="icon">Аккаунт</a></li>
                         <li><a href="" class="menu__item-7 link"><img src="img/phone.png" alt="" class="icon">Контакты</a></li>
                     </ul>
                 </nav>
@@ -38,12 +38,11 @@
         <div class="wrapper">
             <input type="radio" name="point" id="slide1" checked>
             <input type="radio" name="point" id="slide2">
-
             <input type="radio" name="point" id="slide4">
-
+            
             <div class="slider">
                 <div class="slides slide1"></div>
-                <div class="slides slide2">w</div>
+                <div class="slides slide2"></div>
                 <div class="slides slide4"></div>
 
             </div>	
@@ -57,11 +56,11 @@
     </main>
 
     <footer class="footer container">
-        <div class="info">
+        <div>
             <ul class="footer-list list">
                 <li class="footer-list-item">Оставайтесь на связи: <a href="tel:+78005553535" class="link link-footer">8 (800) 555-35-35</a></li>
                 <li class="footer-list-item">Следите за новинками и акциями:</li>
-                <li class="footer-list-item"><input type="text" class="find" placeholder="Введите email"><img src="" alt="" class=""></li>
+                <li class="footer-list-item"><input type="text" class="footer-input" placeholder="Введите email"><img src="" alt="" class=""></li>
                 <li class="footer-list-item">2022 Компания MGZ</li>
             </ul>
         </div>
